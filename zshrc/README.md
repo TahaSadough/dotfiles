@@ -1,20 +1,19 @@
-Zsh plugins & CLI tools :
+# Zsh plugins & CLI tools :
+## I used arch package manager pacman,you can install them with others like apt,brew or ..
+```sh
+pacman -S fzf
 
-installing examples are with arch package manager pacman,you can install them with others like apt,brew or ..
+pacman -S fd
 
-first install :
+pacman -S eza
 
-fzf : sudo pacman -S fzf
+pacman -S tldr
 
-fd : sudo pacman -S fd
+pacman -S thefuck
 
-eza : sudo pacman -S eza
-
-tldr : sudo pacman -S tldr
-
-thefuck : sudo pacman -S thefuck
-
-zoxide : sudo pacman -S zoxide
-
-then copy my .zshrc config to $HOME -> cp .zshrc ~
-or copy the content to your existing .zshrc file
+pacman -S zoxide
+```
+```sh
+cp .zshrc ~
+``` 
+###### or copy the content to your existing .zshrc file
